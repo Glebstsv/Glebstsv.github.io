@@ -44,7 +44,7 @@
                   <li class="trends__card-link"><a href="#0">Interior</a></li>
                 </ul>
                 <h3 class="title trends__card-title">
-                  Сейчас в тренде: <br >сад на подоконнике
+                  Сейчас в тренде: сад на подоконнике
                 </h3>
               </div>
             </div>
@@ -56,7 +56,7 @@
                   <li class="trends__card-link"><a href="#0">Food</a></li>
                 </ul>
                 <h3 class="title trends__card-title">
-                  сыры на красивых <br >картинках из интернета: <br >какие они
+                  сыры на красивых картинках из интернета: какие они
                   на вкус?
                 </h3>
               </div>
@@ -70,7 +70,7 @@
                   <li class="trends__card-link"><a href="#0">Travel</a></li>
                 </ul>
                 <h3 class="title trends__card-title">
-                  СОБИРАЕМСЯ В ПЕРВЫЙ <br >ПОХОД В ГОРЫ
+                  СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ
                 </h3>
               </div>
             </div>
@@ -83,7 +83,7 @@
                   <li class="trends__card-link"><a href="#0">Health</a></li>
                 </ul>
                 <h3 class="title trends__card-title">
-                  Сейчас в тренде: сКОЛЬКО <br >ВИТАМИНА c В ЛИМОНАХ?
+                  Сейчас в тренде: сКОЛЬКО ВИТАМИНА c В ЛИМОНАХ?
                 </h3>
               </div>
             </div>
@@ -434,12 +434,10 @@
                   <a class="products__card-link" href="#0">здесь</a>
                 </p>
                 <div class="products__card-shop">
-                  <p>
-                    <span class="products__card-price--old">1000 &#8381;</span
-                    ><br ><span class="products__card-price--new"
-                      >800 &#8381;</span
-                    >
-                  </p>
+                  <div class="products__card-price">
+                    <div class="products__card-price--old">1000 &#8381;</div>
+                    <div class="products__card-price--new">800 &#8381;</div>
+                  </div>
                   <a href="" class="products__card-button button-text"
                     >В магазин</a
                   >
@@ -481,9 +479,9 @@
                   в блоге и несколько подкастов.
                 </p>
                 <div class="products__card-shop">
-                  <p>
-                    <span class="products__card-price--new">3500 &#8381;</span>
-                  </p>
+                  <div class="products__card-price">
+                    <div class="products__card-price--new">3500 &#8381;</div>
+                  </div>
                   <a href="" class="products__card-button button-text"
                     >В магазин</a
                   >
@@ -521,12 +519,10 @@
                   >
                 </p>
                 <div class="products__card-shop">
-                  <p>
-                    <span class="products__card-price--old">500 &#8381;</span
-                    ><br ><span class="products__card-price--new"
-                      >400 &#8381;</span
-                    >
-                  </p>
+                  <div class="products__card-price">
+                    <div class="products__card-price--old">500 &#8381;</div>
+                    <div class="products__card-price--new">400 &#8381;</div>
+                  </div>
                   <a href="" class="products__card-button button-text"
                     >В магазин</a
                   >
@@ -539,7 +535,7 @@
     </div>
     <div class="hidden">
       <div class="popup">
-        <div class="popup__box">
+        <form class="popup__box">
           <label class="popup__close">
             <button class="visually-hidden" type="button">Закрыть окно</button>
           </label>
@@ -553,7 +549,7 @@
               <option value="4">Несколько раз в год</option>
             </select>
           </div>
-          <form class="popup__form-group">
+          <div class="popup__form-group">
             <p class="popup__form-desc">Вы подписаны на email рассылку?</p>
             <label class="popup__form-radio">
               <input
@@ -571,7 +567,7 @@
               >
               <span class="popup__radio-text">Нет</span>
             </label>
-          </form>
+          </div>
           <div class="popup__form-group">
             <p class="popup__form-desc">
               Расскажите какаой контент вы хотели бы видеть на нашем сайте?
@@ -586,7 +582,7 @@
           <div class="popup__form-group">
             <button type="submit" class="popup__form-button">Отправить</button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
     <footer class="footer">
